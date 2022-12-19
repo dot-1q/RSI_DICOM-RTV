@@ -154,3 +154,7 @@ cython_debug/
 
 #VS Code
 ./vscode
+.vscode/*
+
+# Dicom files
+/Datasets/*
