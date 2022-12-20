@@ -22,7 +22,10 @@
         </div>
     </div>
             <img src="{{ url_for('video_feed') }}">
-            <img src="{{ url_for('video_feed2') }}">
+            <audio controls>
+                <source src="{{ url_for('audio') }}" type="audio/x-wav;codec=pcm">
+                Your browser does not support the audio element.
+            </audio>
 </body>
 
 </html>
