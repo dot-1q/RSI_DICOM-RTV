@@ -4,9 +4,6 @@ import io
 import socket
 import struct
 import time
-import sounddevice as sd
-from threading import Thread
-from scipy.io.wavfile import write
 
 class Server(object):
     def __init__(self):
