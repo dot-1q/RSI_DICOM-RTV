@@ -19,3 +19,9 @@ Run the Web page
 ```bash
 python3 dicom-rtv.py
 ```
+
+Since the ID of the input device is hardcoded, sometimes it has to be changed by hand.
+That is done on line 44.
+```python
+rate=RATE, input=True,input_device_index=<index>
+```
